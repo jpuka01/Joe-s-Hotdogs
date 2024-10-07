@@ -1,6 +1,7 @@
 # CS20 Web Programming Assignment 3: Joe's Hotdogs Deliverable
 
-## URL:
+## GitHub URL:
+https://jpuka01.github.io/Joes-Hotdogs/
 
 ## HTML File
 Uploaded to Canvas
