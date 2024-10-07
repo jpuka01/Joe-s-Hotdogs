@@ -1,0 +1,39 @@
+<!-- 
+ * CS20 HW3: Joe's Hotdog Stand - index.html
+ * By John Puka
+ * 09/30/24
+-->
+
+<!-- Head Section -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Joe's Hotdog Stand Order Page</title>
+        <link rel="icon" href="assets/hotdog2-image.png" type="image/png">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+</html>
+
+<!-- Body Section -->
+<body>
+    <main>
+        <h1>Welcome to Joe's Hotdog Stand!</h1>
+        <form id="order-form">
+            <label for="hotdogs">🌭 Hotdogs ($4.80 each)</label> <br>
+            <label for="fries">🍟 Fries ($3.95 each)</label> <br>
+            <label for="drinks">🥤 Drinks ($1.99 each)</label> <br>
+            <button type="button" onclick="calculateOrder()">Order Now</button>
+        </form>
+        <div id="order-summary">
+            <!-- Summary will be displayed here -->
+        </div>
+    </main>
+</body>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 Joe's Hotdog Stand. All Rights Reserved.</p>
+</footer>
